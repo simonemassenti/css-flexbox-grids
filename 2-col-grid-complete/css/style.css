@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* COMMON */
+.container {
+    width: 95%;
+    margin: 1rem auto;
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+
+/* HEADER */
+
+header {
+    height: 80px;
+    background-color: orange;
+    margin-bottom: 1rem;
+}
+
+/* MAIN */
+
+main {
+    width: calc(70% - 2rem);
+    background-color: lightgreen;
+    padding: 2rem 1rem 4rem;
+
+}
+
+section {
+    border: 1px dashed black;
+    padding: 1rem;
+}
+
+article {
+    color: white;
+    padding: 1rem;
+    background-color: gray;
+    margin-top: 0.5rem;
+}
+
+/* ADV BLOCK */
+.advertisement {
+    padding: 1rem;
+    width: 30%;
+    background-color: lightblue;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background-color: lightseagreen;
+    height: 120px;
+    margin-top: 1rem;
+}

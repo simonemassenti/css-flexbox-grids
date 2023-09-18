@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    gap: 1rem;
+
+}
+
+header {
+    height: 100px;
+    background-color: orange;
+}
+
+nav {
+    width: 20%;
+    background-color: aqua;
+    padding: 1rem;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    background-color: blue;
+    padding: 0.5rem;
+    margin-bottom: .5rem;
+}
+
+a {
+    color: white;
+}
+
+main {
+    width: calc(60% - 2rem);
+    background-color: yellowgreen;
+    padding: 1rem;
+}
+
+aside {
+    width: 20%;
+    background-color: chocolate;
+    padding: 1rem;
+}
+
